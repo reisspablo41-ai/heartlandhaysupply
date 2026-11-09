@@ -204,9 +204,9 @@ Four transactional emails, sent through [Resend](https://resend.com):
 
 ```bash
 RESEND_API_KEY=re_...
-EMAIL_FROM=Heartland Hay Supply <orders@heartlandhaysupply.com>   # must be on the verified domain
-EMAIL_REPLY_TO=contact@heartlandhaysupply.com
-STORE_NOTIFICATION_EMAIL=contact@heartlandhaysupply.com  # comma-separate for several
+EMAIL_FROM=Heartland Hay Supply <contact@heartandhaysupply.com>   # must be on the verified domain
+EMAIL_REPLY_TO=contact@heartandhaysupply.com
+STORE_NOTIFICATION_EMAIL=contact@heartandhaysupply.com  # comma-separate for several
 ```
 
 3. Restart the dev server.

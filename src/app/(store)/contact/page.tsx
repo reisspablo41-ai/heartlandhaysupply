@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const DETAILS = [
-  { label: "Email", value: "contact@heartlandhaysupply.com", href: "mailto:contact@heartlandhaysupply.com" },
+  { label: "Email", value: "contact@heartandhaysupply.com", href: "mailto:contact@heartandhaysupply.com" },
   { label: "Yard hours", value: "Mon–Sat, 7am – 6pm PT" },
   { label: "Address", value: "4120 County Road 12, Walla Walla, WA 99362" },
 ];
