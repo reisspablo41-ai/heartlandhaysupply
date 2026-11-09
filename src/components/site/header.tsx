@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Suspense, useCallback, useEffect, useState } from "react";
 import { CartButton } from "@/components/site/cart-button";
 import { SearchField } from "@/components/site/search-field";
-import { CloseIcon, MenuIcon, UserIcon } from "@/components/ui/icons";
+import { CloseIcon, MenuIcon } from "@/components/ui/icons";
 import { STORE_NAME } from "@/lib/env";
 import { cn } from "@/lib/format";
 
@@ -72,19 +72,6 @@ export function Header() {
               <SearchField dark={overHero} />
             </Suspense>
           </div>
-
-          <Link
-            href="/admin"
-            aria-label="Admin panel"
-            className={cn(
-              "hidden size-10 place-items-center rounded-full border transition-colors sm:grid",
-              overHero
-                ? "border-paper/25 hover:bg-paper hover:text-ink"
-                : "border-ink/15 hover:bg-ink hover:text-paper",
-            )}
-          >
-            <UserIcon className="size-[18px]" />
-          </Link>
 
           <CartButton dark={overHero} />
 
