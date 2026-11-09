@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 const DETAILS = [
   { label: "Email", value: "contact@heartandhaysupply.com", href: "mailto:contact@heartandhaysupply.com" },
   { label: "Yard hours", value: "Mon–Sat, 7am – 6pm PT" },
-  { label: "Address", value: "4120 County Road 12, Walla Walla, WA 99362" },
 ];
 
 export default function ContactPage() {
@@ -25,7 +24,7 @@ export default function ContactPage() {
       <div className="gutter py-16">
         <div className="grid gap-14 lg:grid-cols-[1fr_1.3fr] lg:gap-24">
           <div>
-            <h2 className="eyebrow text-muted">Where to find us</h2>
+            <h2 className="eyebrow text-muted">How to reach us</h2>
             <dl className="mt-7 divide-y divide-paper-line border-y border-paper-line">
               {DETAILS.map((detail) => (
                 <div key={detail.label} className="py-5">

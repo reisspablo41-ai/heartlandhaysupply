@@ -35,7 +35,7 @@ insert into public.products (
     'Premium Timothy — 2nd Cut', 'premium-timothy-2nd-cut',
     'Soft, leafy second cutting with a clean green colour and almost no stem.',
     'Our flagship grass hay. Cut at the pre-bloom stage, field-cured and baled dry under cover, so it keeps its colour and aroma right through winter. Second cutting means a finer stem and a higher leaf-to-stem ratio than first cut — the usual choice for horses in light to moderate work.',
-    1850, 2200, 'bale', 'TIM-2C-SQ', 420,
+    8500, 10100, 'bale', 'TIM-2C-SQ', 420,
     'Timothy', '2nd Cut', 'Small Square', 23.00, 9.50, 11.00,
     2025, 'Walla Walla, WA', false, true
   ),
@@ -44,7 +44,7 @@ insert into public.products (
     'Orchard Grass — 1st Cut', 'orchard-grass-1st-cut',
     'Palatable, mid-protein grass hay that most horses will clean up.',
     'A little higher in protein than timothy and softer than first-cut, which makes it an easy transition hay for picky eaters. Baled at 11% moisture and stored on pallets in a closed barn.',
-    1650, null, 'bale', 'ORC-1C-SQ', 310,
+    7800, null, 'bale', 'ORC-1C-SQ', 310,
     'Orchard Grass', '1st Cut', 'Small Square', 22.00, 11.20, 11.00,
     2025, 'Ellensburg, WA', false, false
   ),
@@ -62,7 +62,7 @@ insert into public.products (
     'Tall Fescue — Endophyte-Free', 'tall-fescue-endophyte-free',
     'Tested endophyte-free, so it is safe to feed to pregnant mares.',
     'Fescue is tough, drought-tolerant and cheap to grow, but wild stands carry an endophyte fungus that causes serious foaling problems in broodmares. This is a certified endophyte-free variety, lab-tested per lot, so it carries none of that risk. Coarser in the stem than timothy and best suited to cattle, sheep, goats and horses at maintenance.',
-    1450, null, 'bale', 'FES-EF-SQ', 260,
+    7200, null, 'bale', 'FES-EF-SQ', 260,
     'Fescue', '1st Cut', 'Small Square', 24.00, 10.40, 11.00,
     2025, 'Lebanon, OR', false, false
   ),
@@ -71,7 +71,7 @@ insert into public.products (
     'Smooth Brome — 2nd Cut', 'smooth-brome-2nd-cut',
     'Leafy, sweet-smelling brome. A northern-plains staple that horses rarely refuse.',
     'Smooth brome holds its leaf better than most grasses, which keeps the protein up and the waste down. The second cutting is softer and finer than the first. A good middle ground if timothy is too lean for your stock but you do not want the calcium load of straight alfalfa.',
-    1950, 2250, 'bale', 'BRM-2C-SQ', 190,
+    8900, 10300, 'bale', 'BRM-2C-SQ', 190,
     'Brome', '2nd Cut', 'Small Square', 24.00, 11.60, 10.80,
     2025, 'Dickinson, ND', false, true
   ),
@@ -80,7 +80,7 @@ insert into public.products (
     'Teff Hay — Low Sugar', 'teff-hay-low-sugar',
     'Low non-structural carbohydrate. The hay to feed a laminitic or insulin-resistant horse.',
     'Teff is a warm-season annual that runs low in sugar and starch, typically under 10% NSC, which makes it one of the few hays safe for horses with laminitis, PPID or equine metabolic syndrome. Fine-stemmed, soft and dust-free. Every lot ships with its NSC analysis.',
-    2250, null, 'bale', 'TEF-2C-SQ', 140,
+    9500, null, 'bale', 'TEF-2C-SQ', 140,
     'Teff', '2nd Cut', 'Small Square', 21.00, 10.20, 10.50,
     2025, 'Parma, ID', false, true
   ),
@@ -98,7 +98,7 @@ insert into public.products (
     'Meadow Mix — Mixed Grass', 'meadow-mix-grass',
     'Native meadow grasses baled together. Our most economical feeding hay.',
     'Whatever the meadow grew — a changing mix of brome, fescue, bluegrass and timothy cut from permanent pasture. Protein varies a point or two between lots, so we test and publish each one. The cheapest way to put clean, honest forage in front of stock at maintenance.',
-    1390, 1590, 'bale', 'MDW-1C-SQ', 380,
+    6800, 7800, 'bale', 'MDW-1C-SQ', 380,
     'Meadow Grass', '1st Cut', 'Small Square', 23.00, 9.80, 11.00,
     2025, 'Burns, OR', false, false
   ),
@@ -120,7 +120,7 @@ insert into public.products (
     'Wheat Straw Bedding', 'wheat-straw-bedding',
     'Bright, hollow-stemmed straw. Absorbent, low dust, easy to muck out.',
     'Not a feed — bedding. Hollow wheat stems trap air and moisture, which keeps stalls drier and makes mucking faster. Combed and dust-extracted before baling.',
-    950, null, 'bale', 'STR-WHT-SQ', 600,
+    6200, null, 'bale', 'STR-WHT-SQ', 600,
     'Wheat Straw', null, 'Small Square', 18.00, null, 10.00,
     2025, 'Great Bend, KS', false, false
   ),

@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { CartProvider } from "@/components/cart/cart-provider";
 import { SetupNotice } from "@/components/site/setup-notice";
 import { isSupabaseConfigured } from "@/lib/env";
@@ -20,6 +21,15 @@ export default function StoreLayout({ children }: { children: React.ReactNode })
       <main className="min-h-dvh">{children}</main>
       <Footer />
       <CartDrawer />
+
+      {/*
+        Jivo live chat. `lazyOnload` defers it to browser idle time, after the
+        page's own resources have been fetched — the strategy Next documents
+        for chat widgets, so the widget never competes with the hero image.
+        Loaded here rather than in the root layout so it stays off the admin
+        panel. Widget id comes from the Jivo dashboard.
+      */}
+      <Script src="https://code.jivosite.com/widget/E2UAXdXYto" strategy="lazyOnload" />
     </CartProvider>
   );
 }

@@ -31,8 +31,8 @@ export default async function HomePage() {
   return (
     <>
       <Hero
-        eyebrow="Harvest 2025 — now shipping"
-        headline={["Feed Better with", "the 2025 Cutting"]}
+        eyebrow="Now shipping nationwide"
+        headline={["Feed Better with", "First & Second Cutting"]}
         callout="Up to 20% off your first pallet. Free freight on orders over $1,500 across the lower 48."
         imageUrl="/hero-hay-field.jpg"
         imageAlt="Rows of baled hay in a field at dusk"
