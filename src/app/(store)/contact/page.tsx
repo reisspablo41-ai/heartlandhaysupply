@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/site/page-header";
 import { EnquiryForm } from "@/components/site/enquiry-form";
+import { STORE_EMAIL } from "@/lib/env";
 
 export const metadata: Metadata = {
   title: "Contact & bulk enquiries",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const DETAILS = [
-  { label: "Email", value: "contact@heartandhaysupply.com", href: "mailto:contact@heartandhaysupply.com" },
+  { label: "Email", value: STORE_EMAIL, href: `mailto:${STORE_EMAIL}` },
   { label: "Yard hours", value: "Mon–Sat, 7am – 6pm PT" },
 ];
 

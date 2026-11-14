@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { STORE_NAME } from "@/lib/env";
+import { STORE_EMAIL, STORE_NAME } from "@/lib/env";
 import { ArrowRightIcon } from "@/components/ui/icons";
 
 const COLUMNS = [
@@ -80,7 +80,13 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {STORE_NAME}. All rights reserved.
           </p>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <a
+              href={`mailto:${STORE_EMAIL}`}
+              className="transition-colors hover:text-paper"
+            >
+              {STORE_EMAIL}
+            </a>
             <Link href="/privacy" className="transition-colors hover:text-paper">
               Privacy
             </Link>

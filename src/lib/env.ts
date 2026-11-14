@@ -43,6 +43,10 @@ export const STORE_INITIALS =
     .slice(0, 3)
     .toUpperCase() || "HH";
 
+/** Public contact address — shown on the contact page and in the footer. */
+export const STORE_EMAIL =
+  process.env.NEXT_PUBLIC_STORE_EMAIL || "contact@heartandhaysupply.com";
+
 export const CURRENCY = process.env.NEXT_PUBLIC_CURRENCY || "USD";
 export const CURRENCY_LOCALE = process.env.NEXT_PUBLIC_CURRENCY_LOCALE || "en-US";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
